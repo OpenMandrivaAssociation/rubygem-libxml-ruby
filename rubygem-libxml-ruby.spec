@@ -13,6 +13,7 @@ Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:	ruby-devel
 BuildRequires:	rubygem(rake)
+BuildRequires:	libxml2-devel
 
 %description
 The Libxml-Ruby project provides Ruby language bindings for the GNOME
