@@ -45,7 +45,6 @@ Documents, RDoc & RI documentation for %{name}.
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/xml
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/xml/*.rb
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/libxml
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/libxml/*.rb
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/libxml
