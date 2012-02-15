@@ -11,8 +11,8 @@ License:	GPLv2+ or Ruby
 URL:		http://xml4r.github.com/libxml-ruby
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
-BuildRequires:	ruby-devel
-BuildRequires:	libxml2-devel
+BuildRequires:	pkgconfig(ruby-1.9)
+BuildRequires:	pkgconfig(libxml-2.0)
 
 %description
 The Libxml-Ruby project provides Ruby language bindings for the GNOME
