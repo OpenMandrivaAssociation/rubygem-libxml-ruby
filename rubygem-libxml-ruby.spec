@@ -1,4 +1,4 @@
-# Generated from libxml-ruby-2.2.2.gem by gem2rpm5 -*- rpm-spec -*-          
+# Generated from libxml-ruby-2.2.2.gem by gem2rpm5 -*- rpm-spec -*-
 %define	rbname	libxml-ruby
 
 Summary:	Ruby Bindings for LibXML2
@@ -12,7 +12,6 @@ URL:		http://xml4r.github.com/libxml-ruby
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:	ruby-devel
-BuildRequires:	rubygem(rake)
 BuildRequires:	libxml2-devel
 
 %description
